@@ -1,0 +1,11 @@
+api/node_modules
+contracts/node_modules
+client/node_modules
+
+*/node_modules
+contracts/artifacts/*
+contracts/typechain-types/*
+contracts/ignition/deployments/*
+contracts/cache/*
+
+*/dist/*

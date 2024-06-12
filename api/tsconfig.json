@@ -1,0 +1,9 @@
+{
+	"compilerOptions": {
+		"esModuleInterop": true,
+		"target": "ESNext",
+		"module": "CommonJS",
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true
+	}
+}

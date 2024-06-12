@@ -1,0 +1,19 @@
+{
+  "name": "@nft-deployer/contracts",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.5"
+  },
+  "scripts": {
+    "solhint": "npx solhint **/contracts/**/*.sol **/contracts/*.sol --fix --noPrompt",
+    "prettier": "npx prettier --write --plugin=prettier-plugin-solidity **/contracts/**/*.sol **/contracts/*.sol",
+    "formatter": "npm run prettier"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2",
+    "@openzeppelin/contracts-upgradeable": "^5.0.2",
+    "prettier-plugin-solidity": "^1.3.1",
+    "solhint": "^5.0.1",
+    "solhint-plugin-prettier": "^0.1.0"
+  }
+}
